@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{D3BD5984-F703-1810-A1D1-DF3B820441D6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_6;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\RPCEnabler.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\System\Broadcaster.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\System\Curves.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\System\Delegates\DelegateSupport.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\System\Easing.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\System\InheritableRPC.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\System\LoadAnimations.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\System\Loom.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\System\MonoBehaviourEx.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\System\Radical.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\System\RadicalRoutine.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\System\RadicalRoutineHelper.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\System\Smoothing.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\System\Testing\Inherited.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\System\Testing\SimpleCaller.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\System\TransformExtensions.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Radical\System\XmlSupport.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\ResultLogger.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\EmptyObjectIdentifier.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\Entry.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\GENERATED\GEN_ShaderDB.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\GetSet.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\GetSetGeneric.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\GetWritableAttributes.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\IStorage.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\InRangeItem.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\LevelLoader.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\LevelSerializer.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\OnlyInRangeManager.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\PersistentStorage\DataContainer.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\PersistentStorage\FilePrefs.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\PersistentStorage\SaveOnQuit.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\PrefabIdentifier.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\RemoveEditors.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\Rooms\DontStoreObjectInRoom.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\Rooms\Examples\PlayerLocator.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\Rooms\Examples\PlayerSpawnPoint.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\Rooms\PreserveObjectWhenLoading.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\Rooms\Room.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\Rooms\RoomDataSaveGameStorage.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\Rooms\RoomLoader.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\Rooms\RoomManager.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\SaveGameManager.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\SerializationUnits.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\Storage.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\StoreAnimator.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\StoreInformation.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\StoreMaterials.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\StoreMesh.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\StoredReferences.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\TimeSpecialist.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\UniqueIdentifier.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\UnitySerializationExtensions.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\UnitySerializer.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Serialization\prewarm.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SevenZipHelper.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Checksums\Adler32.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Checksums\CRC32.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Checksums\IChecksum.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Checksums\StrangeCRC.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Compression\Deflater.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Compression\DeflaterConstants.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Compression\DeflaterEngine.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Compression\DeflaterHuffman.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Compression\DeflaterPending.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Compression\Inflater.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Compression\InflaterDynHeader.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Compression\InflaterHuffmanTree.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Compression\PendingBuffer.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Compression\Streams\DeflaterOutputStream.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Compression\Streams\InflaterInputStream.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Compression\Streams\OutputWindow.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Compression\Streams\StreamManipulator.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Encryption\PkzipClassic.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Encryption\ZipAESStream.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\Encryption\ZipAESTransform.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\SharpZipBaseException.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\ZipConstants.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\ZipEntry.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\ZipExtraData.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\SharpZIP\src\ZipHelperStream.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\UnitySerializerVersion.cs" />
+     <Compile Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\Utility\Types.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Camera\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Checkers\Scripts\Board.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Checkers\Scripts\Exclusive.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Colors\Scripts\Circle.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Colors\Scripts\Colors.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Cube\Scripts\CustomTouchProxy.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Cube\Scripts\Init.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Cube\Scripts\LayerDelegate.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Cube\Scripts\RedirectInput.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Multiuser\Scripts\Logo.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Photos\Scripts\Container.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Photos\Scripts\SetColor.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Portal\Scripts\Planet.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Portal\Scripts\Rotator.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Portal\Scripts\Vortex.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\RawInput\Scripts\Ball.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\RawInput\Scripts\Spawner.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Taps\Scripts\Break.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Taps\Scripts\Kick.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\Taps\Scripts\Spawn.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\_misc\Scripts\Checker.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\_misc\Scripts\KillMe.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Examples\_misc\Scripts\Runner.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Modules\TUIO\Scripts\InputSources\TuioInput.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Behaviors\TouchScriptInputModule.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Behaviors\Transformer.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Behaviors\Visualizer\TouchProxy.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Behaviors\Visualizer\TouchVisualizer.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Clusters\Clusters.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\DebuggableMonoBehaviour.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Devices\Display\DisplayDevice.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Devices\Display\GenericDisplayDevice.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Devices\Display\IDisplayDevice.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\GestureManager.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\GestureManagerInstance.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\Base\PinnedTransformGestureBase.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\Base\TransformGestureBase.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\Clustered\ClusteredPinnedTransformGesture.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\Clustered\ClusteredScreenTransformGesture.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\Clustered\ClusteredTransformGesture.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\FlickGesture.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\Gesture.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\IGestureDelegate.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\ITransformGesture.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\LongPressGesture.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\MetaGesture.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\PinnedTransformGesture.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\PressGesture.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\ReleaseGesture.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\ScreenTransformGesture.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\TapGesture.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\TransformGesture.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Gestures\UI\UIGesture.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Hit\HitTest.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Hit\TouchHit.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Hit\Untouchable.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\IDebuggable.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\IGestureManager.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\ITouchManager.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\InputSources\ICoordinatesRemapper.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\InputSources\IInputSource.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\InputSources\InputHandlers\MouseHandler.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\InputSources\InputHandlers\TouchHandler.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\InputSources\InputHandlers\WindowsTouchHandlers.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\InputSources\InputSource.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\InputSources\MobileInput.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\InputSources\MouseInput.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\InputSources\StandardInput.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Layers\CameraLayer.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Layers\CameraLayer2D.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Layers\CameraLayerBase.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Layers\FullscreenLayer.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Layers\ILayerDelegate.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Layers\ProjectionParams.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Layers\TouchLayer.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Layers\UILayer.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Tags.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\TouchManager.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\TouchManagerInstance.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\TouchPoint.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Utils\Attributes\NullToggleAttribute.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Utils\Attributes\ToggleLeftAttribute.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Utils\ClusterUtils.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Utils\Debug\DebugHelper.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Utils\Debug\GLDebug.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Utils\EventHandlerExtensions.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Utils\Geom\TwoD.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Utils\ObjectPool.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Utils\ProjectionUtils.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Utils\TimedSequence.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Utils\TouchUtils.cs" />
+     <Compile Include="Assets\Plugins\TouchScript\Scripts\Utils\TransformUtils.cs" />
+     <Compile Include="Assets\Plugins\Unity GUI free\Unity GUI\Scripts\ActiveStateToggler.cs" />
+     <Compile Include="Assets\Plugins\Unity GUI free\Unity GUI\Scripts\ApplicationManager.cs" />
+     <Compile Include="Assets\Plugins\Unity GUI free\Unity GUI\Scripts\ChangeColor.cs" />
+     <Compile Include="Assets\Plugins\Unity GUI free\Unity GUI\Scripts\DragPanel.cs" />
+     <Compile Include="Assets\Plugins\Unity GUI free\Unity GUI\Scripts\DropMe.cs" />
+     <Compile Include="Assets\Plugins\Unity GUI free\Unity GUI\Scripts\PanelManager.cs" />
+     <Compile Include="Assets\Plugins\Unity GUI free\Unity GUI\Scripts\ResizePanel.cs" />
+     <Compile Include="Assets\Plugins\Unity GUI free\Unity GUI\Scripts\ScrollDetailTexture.cs" />
+     <Compile Include="Assets\Plugins\Unity GUI free\Unity GUI\Scripts\ShowSliderValue.cs" />
+     <Compile Include="Assets\Plugins\Unity GUI free\Unity GUI\Scripts\TiltWindow.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\AddSomeForce.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\AdditionalData.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\AdditionalDataStorage.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\ArrayOfPrefabs.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\CentreAndPointMe.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\CharacterMotor.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\ColorMe.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\CreateChildSphere.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\DeleteComponent.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\DeletedComponent.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\HelloWorld.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\IsDeserializing.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\KeepAReference.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\Movement.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\OpenDoor.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\RenameObject.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\SaveAndLoad.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\ScaleObject.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\Spawner.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\SwitchMesh.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\TestCoroutines.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\TestLoading.cs" />
+     <Compile Include="Assets\Plugins\UnitySerializerExamples\Scripts\VariablesToSave.cs" />
+     <None Include="Assets\Plugins\TouchScript\Shaders\DebugDepthTest.shader" />
+     <None Include="Assets\SOOMLA Storefronts Pack - Landscape\README.txt" />
+     <None Include="Assets\Plugins\TouchScript\license.txt" />
+     <None Include="Assets\Plugins\Unity GUI free\Unity GUI\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\Plugins\TouchScript\Shaders\DebugMultiplyDepthTest.shader" />
+     <None Include="Assets\Plugins\Unity GUI free\Unity GUI\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\Plugins\TouchScript\Shaders\DebugNoDepthTest.shader" />
+     <None Include="Assets\Plugins\OpenUnityTools\unityserializer-ng\license.txt" />
+     <None Include="Assets\Plugins\Unity GUI free\Unity GUI\Materials\UI-Default-No-Alpha.shader" />
+     <None Include="Assets\GUI4500Pack\readme.txt" />
+     <None Include="Assets\Plugins\TouchScript\Shaders\DebugMultiplyNoDepthTest.shader" />
+     <None Include="Assets\Plugins\TouchScript\Examples\_misc\Shaders\UnlitColor.shader" />
+     <None Include="Assets\Plugins\TouchScript\Examples\_misc\Shaders\BorderDiffuse.shader" />
+     <None Include="Assets\Plugins\UnitySerializerExamples\readme.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="OSCsharp">
+ <HintPath>D:/Prizm/Unity Projects/The_Refuge/Assets/Plugins/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
+ </Reference>
+ <Reference Include="TUIOsharp">
+ <HintPath>D:/Prizm/Unity Projects/The_Refuge/Assets/Plugins/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
